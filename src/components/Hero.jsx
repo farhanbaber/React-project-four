@@ -18,7 +18,7 @@ function Hero() {
     }
         return (
           <div className={styles.heroContainer}>
-            <h1>Random Password Generator</h1>
+            <h1>Random jokes Generator</h1>
             <p>{text}</p>
             <button onClick={getjoke}>Get Joke</button>
           </div>
